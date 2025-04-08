@@ -37,3 +37,14 @@ try {
 } catch (MessagingException e) {
     e.printStackTrace();
 }
+////////////////////////////////////////////////////
+Verificar un código de recuperación
+Para verificar si el código ingresado por el usuario es correcto, utiliza el siguiente método:
+
+boolean esCorrecto = EmailConnect.verificarCodigo("codigoIngresado", "codigoOriginal");
+
+///////////////////////////////////////////////////
+Generar un código aleatorio
+La librería incluye una función para generar un código aleatorio de 6 caracteres, utilizando letras y números:
+
+String codigo = EmailConnect.generarCodigoRandom();
