@@ -48,3 +48,5 @@ Generar un código aleatorio
 La librería incluye una función para generar un código aleatorio de 6 caracteres, utilizando letras y números:
 
 String codigo = EmailConnect.generarCodigoRandom();
+LINK VIDEO:
+https://youtube.com/shorts/c3TqVznbC0U?feature=share
